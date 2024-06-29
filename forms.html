@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Isro Forms</title>
+	<script >
+		var name=prompt("Please enter your name");
+	</script>
+</head>
+<body>
+	<script>
+	if(name =="")
+		alert("Please input your name");
+	else
+		alert("Hi!!"+name)
+</script>
+  
+	<h1 style="color:darkturquoise;">Please fill the form if you have visited this website</h1>
+	<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="dob">DOB:</label><br>
+  <input type="date" id="dob" name="dob"><br>
+</form>
+<form>
+  <p>Choose your favorite topic in Space:</p>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">Astrophysics</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">Aeronautics</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">Rocket science</label><br>
+  <input type="submit" value="Submit">
+  <input type="reset">
+
+</form>
+<a href="index.html">Back</a>
+
+
+
+</body>
+</html>
